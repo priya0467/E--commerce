@@ -1,0 +1,79 @@
+/* home.module.css */
+
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.upper {
+  background-color: #685d5d;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  
+}
+
+.upper h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 90px;
+}
+
+.content1 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid #5e64b8;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #685d5d;
+  color: white;
+}
+
+.logo {
+  margin-top: 20px;
+  font-size: 3rem;
+  color: rgb(125, 125, 224); /* Adjust the size of the icon */
+}
+
+.lower {
+  margin-top: 20px;
+  font-family:unset;
+}
+
+.lower h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #2833d6;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border-style:groove
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+ 
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+  

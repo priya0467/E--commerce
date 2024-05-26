@@ -1,0 +1,69 @@
+/* about.module.css */
+
+.about {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .upper1 {
+    background-color: #6d6262;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    
+  }
+  
+  .upper1 h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .lower2 {
+    margin-top: 20px;
+  }
+  
+  .lower2 h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+ 
+  
+  .imge img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 50%;
+   
+  }
+  
+  .para {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+   
+ 
+  }
+  
+  .lower3 {
+    margin-top: 20px;
+    background-color: rgb(113, 233, 233);
+
+  }
+  
+  .lower3 h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .you, .ins, .fb {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .you img, .ins img, .fb img {
+    width: 40px;
+    height: auto;
+    border-radius: 70%;
+  }
+  

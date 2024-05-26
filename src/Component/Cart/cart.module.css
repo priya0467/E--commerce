@@ -1,0 +1,38 @@
+/* YourComponent.module.css */
+
+.cart {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    margin-bottom: 5px;
+  }
+  
+  .total {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .action {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn,
+  .order {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    background-color: #ccc;
+  }
+  
+  .order {
+    background-color: #4caf50;
+    color: white;
+  }

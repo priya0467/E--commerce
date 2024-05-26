@@ -1,0 +1,141 @@
+/* General container for the store */
+.store {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Upper section styles */
+  .upper2 {
+
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #555;
+    font-size: 40px;
+    height: 100px;
+    color: white;
+  }
+  
+  /* Lower section styles */
+  .lower3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  /* Nested lower section styles */
+  .lower22 {
+
+    align-items: center;
+  text-align: center;
+  }
+  
+  /* Products container styles */
+  .products1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Music product styles */
+  .music {
+    flex: 2 2 calc(33.333% - 20px);
+    padding: 10px;
+    border-radius: 8px;
+   text-align: center;
+  }
+  
+  .music img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  .music img:hover {
+    transform: scale(1.1); /* You can adjust the scale factor for zooming in/out */
+  }
+  
+  .music h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .music p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  /* Merchandise container styles */
+  .merchnt {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  /* Each merchandise product styles */
+  .product2 {
+    flex: 2 2 calc(33.333% - 20px);
+    padding: 10px;
+   
+  
+
+    text-align: center;
+  }
+  
+  .product2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .product2 img:hover {
+    transform: scale(1.1); /* You can adjust the scale factor for zooming in/out */
+  }
+  
+  .product2 h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .product2 p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  /* Another lower section styles */
+  .lowerr3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+   
+  }
+  
+
+  
+
+  
+  .you, .ins, .fb {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .you img, .ins img, .fb img {
+    width: 40px;
+    height: auto;
+    border-radius: 70%;
+  }
+  .merchnt11{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: monospace;
+  }
