@@ -1,11 +1,22 @@
 import React from "react";
 import classes from"./home.module.css"
 import { SiYoutubemusic } from "react-icons/si";
+import { UseuserAuth } from "../../Context/UserAuth";
 
 const Home=()=>{
 
+    const{user}=UseuserAuth();
+
+
     return(
         <div className={classes.home}>
+           <div className={classes["rounded-circle-container"]}>
+      {user && (
+        <div className={`${classes["rounded-circle"]} text-center`}>
+          {user.email}
+        </div>
+      )}
+    </div>
             <div className={classes.upper}>
                 <h1>The Generics</h1>
                 <div className={classes.content1}>

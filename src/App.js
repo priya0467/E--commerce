@@ -12,6 +12,7 @@ import ContactUs from './Component/Contact/contact';
 import Login from './Component/Authntication/login';
 import Signup from './Component/Authntication/sighup';
 import UserAuthContextProvider from './Context/UserAuth';
+import ProctectedRoute from './Component/Authntication/proctectedRoute';
 
 function App() {
   return (
@@ -23,7 +24,13 @@ function App() {
          <Routes>
          <Route path="/" element={<Login/>}></Route>
          <Route path="/signup" element={<Signup/>}></Route>
-         <Route path="/home" element={<Home/>}></Route>
+         <Route 
+         path="/home" 
+         element={
+         <ProctectedRoute>
+             <Home/>
+         </ProctectedRoute>}
+         ></Route>
          <Route path="/store" element={<Store/>}></Route>
          <Route path="/about" element={<About/>}></Route>
          <Route path="/cart" element={<Cart/>}></Route>

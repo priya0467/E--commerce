@@ -10,6 +10,8 @@
   padding: 20px;
   border-radius: 10px;
   position: relative;
+  top: 30px;
+  
   
 }
 
@@ -38,13 +40,14 @@
 }
 
 .lower {
-  margin-top: 20px;
+  margin-top: 30px;
   font-family:unset;
 }
 
 .lower h1 {
   font-size: 2rem;
-  margin-bottom: 10px;
+ 
+  margin-bottom: 15px;
   color: #2833d6;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -76,4 +79,15 @@ button:hover {
   background-color: #45a049;
 }
 
-  
+.rounded-circle-container {
+  position: absolute;
+  top: 4rem; /* Adjust as needed */
+  left: 1rem; /* Adjust as needed */
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: #fff; /* White text color */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+}

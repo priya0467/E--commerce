@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { UseuserAuth } from "../../Context/UserAuth";
 import classes from "./contact.module.css";
 
 const ContactUs = () => {
+  const { user } = UseuserAuth(); // Get the authenticated user
   const [userData, setUserData] = useState({
     name: "",
-    email: "",
+    email: user?.email || "", // Use the authenticated user's email if available
     message: "",
   });
 
@@ -22,7 +24,7 @@ const ContactUs = () => {
     const { name, email, message } = userData;
 
     try {
-      const res = await fetch("https://ecommerce-d5844-default-rtdb.firebaseio.com/userdatarecode.json", {
+      const res = await fetch("https://ecommerce-d5844-default-rtdb.firebaseio.com//userdatarecode.json", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
@@ -38,7 +40,7 @@ const ContactUs = () => {
         alert("Data stored successfully!");
         setUserData({
           name: "",
-          email: "",
+          email: user?.email || "", // Reset email to authenticated user's email
           message: "",
         });
       } else {
@@ -94,4 +96,5 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
 
