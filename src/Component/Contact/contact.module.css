@@ -1,0 +1,52 @@
+/* contact.module.css */
+
+.contact1 {
+    margin-bottom: 20px;
+  }
+  
+  .contact2 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact3 {
+    margin-bottom: 20px;
+  }
+  
+  .contact4 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact5 {
+    margin-bottom: 20px;
+  }
+  
+  .contact6 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact7 {
+    text-align: center;
+  }
+  
+  .contact8 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact8:hover {
+    background-color: #0056b3;
+  }
+  

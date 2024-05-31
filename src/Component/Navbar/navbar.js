@@ -17,7 +17,7 @@ function NavScroll() {
         <div className={classes.navbar}>
             <div className={classes.logo}>logo</div>
             <div className={classes.links}>
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
                 <Link to="/store">Store</Link>
                 <Link to="/about">About</Link>
                 <Link to="/product">Product</Link>
